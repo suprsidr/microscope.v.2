@@ -1,2 +1,5 @@
 .meteor/local
 .meteor/meteorite
+.idea/scopes
+.idea/*.xml
+.idea/*
