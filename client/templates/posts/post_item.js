@@ -14,6 +14,9 @@ Template.postItem.helpers({
     } else {
       return 'disabled';
     }
+  },
+  isPostPage: function() {
+    return '/posts/' + this._id === location.pathname;
   }
 });
 

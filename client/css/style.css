@@ -72,6 +72,15 @@ body {
     color: #aaaaaa; }
 .post .post-content p {
     margin: 0; }
+.post .post-body::before {
+    content: " ";
+    height: 20px;
+    display: table;
+    clear:both;
+}
+.post .post-body {
+    float: left;
+}
 .post .discuss {
     display: block;
     float: right;
